@@ -1,0 +1,13 @@
+
+train: /content/train_data/images/train/  # train images (relative to 'path') 
+val: /content/train_data/images/val/  # val images (relative to 'path') 
+test:  # test images (optional)
+
+#number of classes
+nc: 2
+
+# Classes
+names:
+  0: cat
+  1: dog
+  
